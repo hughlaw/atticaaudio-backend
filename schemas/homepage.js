@@ -12,9 +12,10 @@ export default {
       hidden: true,
     },
     {
-      name: 'dividerImage1',
-      title: 'First divider image',
-      type: 'attica_image',
+      name: 'splashImage',
+      title: 'Splash Image',
+      description: 'The image used behind the main logo on larger screens',
+      type: 'image',
     },
     {
       name: 'section1',
@@ -22,8 +23,8 @@ export default {
       type: 'section',
     },
     {
-      name: 'dividerImage2',
-      title: 'Second divider image',
+      name: 'dividerImage1',
+      title: 'First divider image',
       type: 'attica_image',
     },
     {
@@ -31,18 +32,13 @@ export default {
       type: 'gallery',
     },
     {
-      name: 'dividerImage3',
-      title: 'Third divider image',
-      type: 'attica_image',
-    },
-    {
       name: 'equipmentSection',
       title: 'Equipment section',
       type: 'equipmentSection',
     },
     {
-      name: 'dividerImage4',
-      title: 'Fourth divider image',
+      name: 'dividerImage2',
+      title: 'Second divider image',
       type: 'attica_image',
     },
     {
@@ -51,8 +47,8 @@ export default {
       type: 'rates',
     },
     {
-      name: 'dividerImage5',
-      title: 'Fifth divider image',
+      name: 'dividerImage3',
+      title: 'Third divider image',
       type: 'attica_image',
     },
   ],
