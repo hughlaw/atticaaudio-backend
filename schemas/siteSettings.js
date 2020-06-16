@@ -1,9 +1,8 @@
-import { TiSpanner } from 'react-icons/ti';
 export default {
+  __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
   name: 'siteSettings',
   title: 'Site settings',
   type: 'document',
-  icon: TiSpanner,
   fields: [
     {
       name: 'address',

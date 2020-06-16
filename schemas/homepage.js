@@ -1,10 +1,8 @@
-import { TiHome } from 'react-icons/ti';
-
 export default {
+  __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
   name: 'homepage',
   title: 'Homepage',
   type: 'document',
-  icon: TiHome,
   fields: [
     {
       name: 'pageName',
