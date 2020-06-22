@@ -13,6 +13,9 @@ import section from './section';
 import equipmentSection from './equipmentSection';
 import siteSettings from './siteSettings';
 import rates from './rates';
+import faq from './faq';
+import faqGroup from './faqGroup';
+import accommodation from './accommodation';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,8 +32,11 @@ export default createSchema({
     equipmentGroup,
     equipmentItem,
     gallery,
+    accommodation,
     rates,
     rate,
+    faqGroup,
+    faq,
     siteSettings,
   ]),
 });

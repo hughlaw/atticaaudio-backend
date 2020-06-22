@@ -40,14 +40,30 @@ export default {
       type: 'attica_image',
     },
     {
-      name: 'rates',
-      title: 'Rates / Bookings',
-      type: 'rates',
+      name: 'accommodation',
+      title: 'Accommodation',
+      type: 'accommodation',
     },
     {
       name: 'dividerImage3',
       title: 'Third divider image',
       type: 'attica_image',
+    },
+    {
+      name: 'rates',
+      title: 'Rates / Bookings',
+      type: 'rates',
+    },
+    {
+      name: 'dividerImage4',
+      title: 'Fourth divider image',
+      type: 'attica_image',
+    },
+    {
+      name: 'faqs',
+      title: 'Frequently Asked Questions',
+      type: 'array',
+      of: [{ type: 'faqGroup', title: 'FAQ' }],
     },
   ],
 };
