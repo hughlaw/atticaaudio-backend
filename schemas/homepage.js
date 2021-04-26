@@ -60,6 +60,11 @@ export default {
       type: 'attica_image',
     },
     {
+      name: 'bio',
+      title: 'Biography',
+      type: 'bio',
+    },
+    {
       name: 'faqs',
       title: 'Frequently Asked Questions',
       type: 'array',

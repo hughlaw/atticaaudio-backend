@@ -16,6 +16,7 @@ import rates from './rates';
 import faq from './faq';
 import faqGroup from './faqGroup';
 import accommodation from './accommodation';
+import bio from './bio';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -38,5 +39,6 @@ export default createSchema({
     faqGroup,
     faq,
     siteSettings,
+    bio,
   ]),
 });
