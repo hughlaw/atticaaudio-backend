@@ -1,6 +1,6 @@
-import S from '@sanity/desk-tool/structure-builder';
 import { TiHome, TiSpanner } from 'react-icons/ti';
-export default () =>
+
+export default (S) =>
   S.list()
     .title('Content')
     .items([
